@@ -7,15 +7,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delani Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
-  <div class="container">
+  <!-- <div class="container"> -->
     <div class="header">
       <img src="IP3/assets/logo/logo.png" alt="Delani studio logo">
-      <h1>WELCOME</h1>
+      <h1 id="welcome">WELCOME</h1>
       <h1>TO DELANI STUDIO</h1>
       <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-      <img src="IP3/assets/mouse_click.png" alt="">
+      <img src="IP3/assets/mouse_click.png" alt="mouse icon" id="mouse">
     </div>
     <div class="about_us">
       <h2>ABOUT US</h2>
@@ -35,23 +41,60 @@
       <div class="row">
         <div class="col-md-4">
           <div class="design">
-            <h3>DESIGN</h3>
+            <img src="IP3/assets/services_icons/design_icon.png" alt="design" class="d_showing">
+            <p>DESIGN</p>
+            <p class="d_hidden">Our design practice offers a whole range of services including brand strategy, interaction and visual design and user experience testing.</p>
+            <p class="d_hidden">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="development">
-            <h3>DEVELOPMENT</h3>
+            <img src="IP3/assets/services_icons/dev_icon.png" alt="development icon" class="dev_showing">
+            <p>DEVELOPMENT</p>
+            <p class="dev_hidden">All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+            <p class="dev_hidden">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="product_management">
-            <h3>PRODUCT MANAGEMENT</h3>
+            <img src="IP3/assets/services_icons/product_icon.png" alt="product management" class="product_showing">
+            <p>PRODUCT MANAGEMENT</p>
+            <p class="product_hidden">Planning and development is interactive. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+            <p class="product_hidden">This interactive process allows for changes as business requirements evolve.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="portfolio">
       <h2>PORTFOLIO</h2>
+      <div class="p_images">
+        <!-- <div class="column"> -->
+          <img src="IP3/assets/portfolio/work4.jpg" alt="first project">
+        <!-- </div>
+        <div class="column"> -->
+          <img src="IP3/assets/portfolio/work3.jpg" alt="second project">
+        <!-- </div>
+        <div class="column"> -->
+          <img src="IP3/assets/portfolio/work2.jpg" alt="third project">
+        <!-- </div>
+        <div class="column">   -->
+          <img src="IP3/assets/portfolio/work1.jpg" alt="fourth project">
+        <!-- </div> -->
+      <!-- </div> 
+      <div class="row"> 
+        <div class="column"> -->
+          <img src="IP3/assets/portfolio/work5.jpg" alt="fifth project">
+        <!-- </div>
+        <div class="column"> -->
+          <img src="IP3/assets/portfolio/work6.jpg" alt="sixth project">
+        <!-- </div>
+        <div class="column"> -->
+          <img src="IP3/assets/portfolio/work7.jpg" alt="seventh project">
+        <!-- </div>
+        <div class="column"> -->
+          <img src="IP3/assets/portfolio/work8.jpg" alt="eighth project">
+        <!-- </div>
+      </div> -->
     </div>
     <div class="contact_us">
       <h2>CONTACT US</h2>
@@ -68,15 +111,29 @@
           <input type="text" name="message" id="message" placeholder="Your message here...">
         </div> -->
         <div>
-          <input type="text" name="name" id="name" placeholder="Name...">
-          <input type="email" name="email" id="email" placeholder="Email...">
+          <input type="text" class="transparent-input" name="name" id="name" placeholder="Name...">
+          <input type="email" class="transparent-input" name="email" id="email" placeholder="Email...">
         </div>
         <div>
-          <input type="text" name="message" id="message" placeholder="Your message here...">
+          <input type="text"class="transparent-input" name="message" id="message" placeholder="Your message here...">
         </div>
       </form>
     </div>
-  </div>
+    <div class="social_media_icons">
+      <img src="IP3/assets/social_icons/twitter.png" alt="twitter icon">
+      <img src="IP3/assets/social_icons/dribble.png" alt="dribble icon">
+      <img src="IP3/assets/social_icons/facebook.png" alt="facebook icon">
+      <img src="IP3/assets/social_icons/g_plus.png" alt="google plus icon">
+      <img src="IP3/assets/social_icons/skype.png" alt="skype icon">
+      <img src="IP3/assets/social_icons/stumble_upon.png" alt="stumble upon icon">
+      <img src="IP3/assets/social_icons/behance.png" alt="behance icon">
+      <img src="IP3/assets/social_icons/pinterest.png" alt="pinterest icon">
+      <img src="IP3/assets/social_icons/flickr.png" alt="flickr icon">
+    </div>
+    <div class="footer">
+      <p>DELANI STUDIO<br>2019</p> 
+    </div>
+  <!-- </div> -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
