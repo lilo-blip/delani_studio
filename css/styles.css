@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -49,93 +49,69 @@ body {
   
 }
 
-
-
-
 .what_we_do {
   height: 300px;
-  padding: 50px;
+  padding: 0px;
   align-items: center;
 }
 
 .what_we_do h2 {
   text-align: center;
-  padding-top: 10px;
-}
-
-.row {
-  display: flex;
+  padding-bottom: 30px;
   padding-top: 30px;
 }
 
-/* .row::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
+.col-md-4 {
+  text-align: center;
+}
 
 .design {
   vertical-align: top;
   display: inline-block;
-  text-align: center;
-  align-items: center;
-  
 }
 
 .d_hidden {
   display: none;
+  font-size: small;
 }
 
 .dev_hidden {
   display: none;
+  font-size: small;
 }
 
 .product_hidden {
   display: none;
+  font-size: small;
 }
 
 .development {
   vertical-align: top;
   display: inline-block;
-  text-align: center;
-  align-items: center;
-  padding-left: 120px;
 }
 
 .product_management {
   vertical-align: top;
   display: inline-block;
-  text-align: center;
-  align-items: center;
-  padding-left: 170px;
 }
 
 .portfolio {
   text-align: center;
 }
 
-/* .row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-} */
-
 .p_images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+  position: relative;
   
 }
 
 .p_images img {
   min-width: 5rem;
-  max-width: 18rem;
+  max-width: 16rem;
   margin: 0 0.5rem 2rem 0.5rem;
 } 
 
@@ -144,11 +120,17 @@ body {
   color: white;
   background-size: cover;
   height: 560px;
+  padding-top: 50px;
+}
+
+.contact_us h2 {
+  padding-bottom: 22px;
 }
 
 input.transparent-input {
   background-color: transparent !important;
   border: 1px solid white;
+  margin-right: 30px;
 }
 
 ::placeholder {
@@ -157,9 +139,14 @@ input.transparent-input {
   font-style: bold;
 }
 
-#message {
-  width: 72%;
+textarea {
+  background-color: transparent !important;
+  border: 1px solid white;
+  margin-right: 30px;
   height: 250px;
+  width: 69%;
+  margin-left: 25px;
+  margin-top: 22px;
 }
 
 #name {
@@ -168,4 +155,25 @@ input.transparent-input {
 
 #email {
   width: 34%;
+}
+
+.social_media_icons {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.social_media_icons img {
+  padding-right: 1em;
+}
+
+.footer {
+  font-size: small;
+}
+
+.project1 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 100px;
 }
