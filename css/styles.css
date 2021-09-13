@@ -176,4 +176,68 @@ textarea {
   position: absolute;
   top: 80px;
   left: 100px;
+  padding-top: 15px;
+}
+
+.project2 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 380px;
+  padding-top: 15px;
+}
+
+.project3 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 670px;
+  padding-top: 15px;
+}
+
+.project4 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 950px;
+  padding-top: 15px;
+}
+
+.project5 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 340px;
+  left: 100px;
+  padding-top: 15px;
+}
+
+.project6 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 340px;
+  left: 380px;
+  padding-top: 15px;
+}
+
+.project7 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 340px;
+  left: 670px;
+  padding-top: 15px;
+}
+
+.project8 {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 340px;
+  left: 950px;
+  padding-top: 15px;
 }
