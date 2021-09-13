@@ -41,7 +41,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="design">
-            <img src="IP3/assets/services_icons/design_icon.png" alt="design" class="d_showing">
+            <img class="w_image" src="IP3/assets/services_icons/design_icon.png" alt="design" id="d_showing">
             <p>DESIGN</p>
             <p class="d_hidden">Our design practice offers a whole range of services including brand strategy, interaction and visual design and user experience testing.</p>
             <p class="d_hidden">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
@@ -49,7 +49,7 @@
         </div>
         <div class="col-md-4">
           <div class="development">
-            <img src="IP3/assets/services_icons/dev_icon.png" alt="development icon" class="dev_showing">
+            <img class="w_image" src="IP3/assets/services_icons/dev_icon.png" alt="development icon" id="dev_showing">
             <p>DEVELOPMENT</p>
             <p class="dev_hidden">All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
             <p class="dev_hidden">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
@@ -57,7 +57,7 @@
         </div>
         <div class="col-md-4">
           <div class="product_management">
-            <img src="IP3/assets/services_icons/product_icon.png" alt="product management" class="product_showing">
+            <img class="w_image" src="IP3/assets/services_icons/product_icon.png" alt="product management" id="product_showing">
             <p>PRODUCT MANAGEMENT</p>
             <p class="product_hidden">Planning and development is interactive. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
             <p class="product_hidden">This interactive process allows for changes as business requirements evolve.</p>
@@ -68,37 +68,23 @@
     <div class="portfolio">
       <h2>PORTFOLIO</h2>
       <div class="p_images">
-        <!-- <div class="column"> -->
+        <figure class="image1">
           <img src="IP3/assets/portfolio/work4.jpg" alt="first project">
-        <!-- </div>
-        <div class="column"> -->
+          <figcaption class="project1">
+            <p>project 1</p>
+          </figcaption>
+        </figure>
           <img src="IP3/assets/portfolio/work3.jpg" alt="second project">
-        <!-- </div>
-        <div class="column"> -->
           <img src="IP3/assets/portfolio/work2.jpg" alt="third project">
-        <!-- </div>
-        <div class="column">   -->
           <img src="IP3/assets/portfolio/work1.jpg" alt="fourth project">
-        <!-- </div> -->
-      <!-- </div> 
-      <div class="row"> 
-        <div class="column"> -->
           <img src="IP3/assets/portfolio/work5.jpg" alt="fifth project">
-        <!-- </div>
-        <div class="column"> -->
           <img src="IP3/assets/portfolio/work6.jpg" alt="sixth project">
-        <!-- </div>
-        <div class="column"> -->
           <img src="IP3/assets/portfolio/work7.jpg" alt="seventh project">
-        <!-- </div>
-        <div class="column"> -->
           <img src="IP3/assets/portfolio/work8.jpg" alt="eighth project">
-        <!-- </div>
-      </div> -->
     </div>
     <div class="contact_us">
       <h2>CONTACT US</h2>
-      <form action="">
+      <form action="" method="post" id="myForm" >
         <!-- <div class="row">
           <div class="col-md-6">
             <input type="text" name="name" id="name" placeholder="Name...">
@@ -115,7 +101,7 @@
           <input type="email" class="transparent-input" name="email" id="email" placeholder="Email...">
         </div>
         <div>
-          <input type="text"class="transparent-input" name="message" id="message" placeholder="Your message here...">
+          <textarea onClick="submitForm()" name="message" id="message" placeholder="Your message here..." rows="4" columns="50"></textarea>
         </div>
       </form>
     </div>
